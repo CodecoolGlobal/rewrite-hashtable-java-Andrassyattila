@@ -6,7 +6,7 @@ import java.util.Objects;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HashTableTest {
+class HashTableTest<K,V> {
 
     @Test
     public void putAndGetElements() {
